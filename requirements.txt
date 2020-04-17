@@ -1,0 +1,5 @@
+beautifulsoup4
+pafy
+youtube-dl
+eyed3
+pydub
