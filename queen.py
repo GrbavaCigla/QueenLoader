@@ -101,7 +101,7 @@ for row in rows:
 
             song_name = columns_temp[title_column].replace("\"","").strip()
             try:
-                youtube_url = video_search(song_name + " lyrics")
+                youtube_url = video_search(song_name + " " + ARTIST +" lyrics")
             except:
                 failed.append(song_name)
                 continue
